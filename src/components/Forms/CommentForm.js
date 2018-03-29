@@ -30,7 +30,7 @@ class CommentForm extends Component {
                 <div className="container">
                     <h1>{data.comment}</h1>
                     <p>{data.author}</p>
-                    <Link to={"/items/" + index + "/?comment=" + data.comment + "?author="+data.author}>Read More..</Link>
+                    <Link to={"/items/" + index + "?comment="+data.comment}>Read More..</Link>
                 </div>
             </Jumbotron>
         ));

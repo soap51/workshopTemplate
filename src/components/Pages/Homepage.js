@@ -1,10 +1,11 @@
 import React , {Component} from 'react';
 import Layouts from '../Layouts/Layouts';
+import CommentForm from '../Forms/CommentForm';
 class Homepage extends Component {
     render(){
         return (
             <Layouts >
-                <h1>Main page</h1>
+                <CommentForm />
             </Layouts>
         )        
     }
